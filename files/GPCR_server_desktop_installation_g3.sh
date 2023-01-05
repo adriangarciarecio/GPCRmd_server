@@ -1,4 +1,4 @@
-echo -e "2. Firewall"
+echo -e "3. Firewall"
 sudo apt install ufw -y 
 
 
