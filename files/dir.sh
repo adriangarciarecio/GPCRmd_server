@@ -1,3 +1,4 @@
+cd ./protwis/sites
 mkdir files
 cd files
 mkdir Covid19Data

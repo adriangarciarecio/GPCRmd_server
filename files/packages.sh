@@ -1,0 +1,1 @@
+pip install django-sendfile djangorestframework django-rest-swagger django-graphos django-revproxy django-debug-toolbar django-utils-six django-haystack psycopg2-binary PyYAML biopython matplotlib mdtraj rdkit defusedxml pandas bokeh plotly pysolr XlsxWriter xlrd mdsrv pgadmin4 Cmake -y
