@@ -1,5 +1,5 @@
 # STYLE:
-bash style.sh
+bash ./style.sh
 
 echo "${Cyan}· Check upgrade of pip...${Color_Off}"
 pip install --upgrade pip
