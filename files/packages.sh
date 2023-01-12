@@ -52,3 +52,7 @@ echo "${Cyan}· Installing pgadmin4${Color_Off}"
 pip install pgadmin4 
 echo "${Cyan}· Installing Cmake${Color_Off}"
 pip install Cmake 
+echo "${Cyan}· Installing mod_wsgi${Color_Off}"
+pip install mod-wsgi
+echo "${Cyan}· Installing bs4${Color_Off}"
+pip install bs4
