@@ -3,6 +3,12 @@ bash ./style.sh
 
 echo "${Cyan}· Check upgrade of pip...${Color_Off}"
 pip install --upgrade pip
+echo "${Cyan}· Installing mod_wsgi${Color_Off}"
+pip install mod-wsgi
+echo "${Cyan}· Installing mdtraj${Color_Off}"
+pip install mdtraj 
+echo "${Cyan}· Installing mdsrv${Color_Off}"
+pip install mdsrv 
 echo "${Cyan}· Installing Django${Color_Off}"
 echo "${Cyan}· Installing Dj-sendfile${Color_Off}"
 pip install django-sendfile 
@@ -28,8 +34,6 @@ echo "${Cyan}· Installing biopython${Color_Off}"
 pip install biopython 
 echo "${Cyan}· Installing matplotlib${Color_Off}"
 pip install matplotlib 
-echo "${Cyan}· Installing mdtraj${Color_Off}"
-pip install mdtraj 
 echo "${Cyan}· Installing rdkit${Color_Off}"
 pip install rdkit 
 echo "${Cyan}· Installing defusedxml${Color_Off}"
@@ -46,13 +50,9 @@ echo "${Cyan}· Installing xlsxWriter${Color_Off}"
 pip install XlsxWriter 
 echo "${Cyan}· Installing xlrd${Color_Off}"
 pip install xlrd 
-echo "${Cyan}· Installing mdsrv${Color_Off}"
-pip install mdsrv 
 echo "${Cyan}· Installing pgadmin4${Color_Off}"
 pip install pgadmin4 
 echo "${Cyan}· Installing Cmake${Color_Off}"
 pip install Cmake 
-echo "${Cyan}· Installing mod_wsgi${Color_Off}"
-pip install mod-wsgi
 echo "${Cyan}· Installing bs4${Color_Off}"
 pip install bs4
